@@ -1,5 +1,5 @@
 // import React from 'react';
-import Header from '../../Shared/Header/Header';
+// import Header from '../../Shared/Header/Header';
 import './Banner.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import rectangle1 from '../../../assets/bannerCarousel/Rectangle 27.png'

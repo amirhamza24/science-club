@@ -1,0 +1,7 @@
+.event-bg {
+    background: url('../../../assets/event/eventBg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
