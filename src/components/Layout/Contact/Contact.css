@@ -1,0 +1,7 @@
+.contact-img {
+    background: url('../../../assets/contact/newsLetterBg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
