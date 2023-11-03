@@ -1,14 +1,5 @@
 // import React from 'react';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-
-// // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/effect-coverflow';
-// import 'swiper/css/pagination';
-// import 'swiper/css/navigation';
-
-// import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
-
+import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 
 import gallery1 from '../../../assets/gallery/gallery1.png'
 import gallery2 from '../../../assets/gallery/gallery2.png'
@@ -22,7 +13,7 @@ const Gallery = () => {
         <div className='pb-20'>
                 <div className='w-10/12 mx-auto h-full'>
                     <div className='flex items-center justify-center h-full'>
-                        <div className='text-center space-y-5'>
+                        <div className='text-center space-y-6'>
                             <div>
                                 <h2 className='title-font text-5xl font-bold'>Gallery</h2>
                             </div>
@@ -31,33 +22,32 @@ const Gallery = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis totam numquam distinctio? Corporis labore <br /> animi unde. Sequi quia ullam dolores assumenda praesentium nisi, cumque culpa quis.</p>
                             </div>
 
-                            <div>
-                            {/* <Swiper
-                            effect={'coverflow'}
-                            grabCursor={true}
-                            centeredSlides={true}
-                            loop={true}
-                            slidesPerView={'auto'}
-                            coverflowEffect={{
-                                rotate: 0,
-                                stretch: 0,
-                                depth: 100,
-                                modifier: 2.5,
-                            }}
+                            <div className='grid grid-cols-3 gap-7'>
+                                <img src={gallery1} alt="" />
 
-                            className='swiper_container'
+                                <img src={gallery2} alt="" />
 
-                            >
-                                <SwiperSlide>Slide 1</SwiperSlide>
-                                <SwiperSlide>Slide 2</SwiperSlide>
-                                <SwiperSlide>Slide 3</SwiperSlide>
-                                <SwiperSlide>Slide 4</SwiperSlide>
-                                <SwiperSlide>Slide 5</SwiperSlide>
-                                <SwiperSlide>Slide 6</SwiperSlide>
-                                <SwiperSlide>Slide 7</SwiperSlide>
-                                <SwiperSlide>Slide 8</SwiperSlide>
-                                <SwiperSlide>Slide 9</SwiperSlide>
-                            </Swiper> */}
+                                <img src={gallery3} alt="" />
+
+                                <img src={gallery4} alt="" />
+
+                                <img src={gallery5} alt="" />
+
+                                <img src={gallery6} alt="" />
+                            </div>
+
+                            <div className='flex justify-center items-center gap-5'>
+                                <div className='w-16 h-9 border rounded flex items-center justify-center'>
+                                    <button className=''>
+                                        <BsArrowLeft className='text-xl'></BsArrowLeft>
+                                    </button>
+                                </div>
+
+                                <div className='w-16 h-9 bg-[#216DDE] rounded flex items-center justify-center'>
+                                    <button>
+                                        <BsArrowRight className='text-xl'></BsArrowRight>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
