@@ -9,6 +9,7 @@ import Main from './components/Main/Main.jsx';
 import Home from './components/Layout/Home/Home.jsx';
 import AllEvent from './components/Heading/AllEvent/AllEvent.jsx';
 import Gallery from './components/Heading/Gallery/Gallery.jsx';
+import Committee from './components/Heading/Committee/Committee.jsx';
 
   const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ import Gallery from './components/Heading/Gallery/Gallery.jsx';
         {
             path: "/event",
             element: <AllEvent></AllEvent>
+        },
+        {
+            path: "/committee",
+            element: <Committee></Committee>
         },
         {
             path: "/gallery",
