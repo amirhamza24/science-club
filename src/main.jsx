@@ -8,6 +8,7 @@ import {
 import Main from './components/Main/Main.jsx';
 import Home from './components/Layout/Home/Home.jsx';
 import AllEvent from './components/Heading/AllEvent/AllEvent.jsx';
+import Gallery from './components/Heading/Gallery/Gallery.jsx';
 
   const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ import AllEvent from './components/Heading/AllEvent/AllEvent.jsx';
         {
             path: "/event",
             element: <AllEvent></AllEvent>
+        },
+        {
+            path: "/gallery",
+            element: <Gallery></Gallery>
         }
       ]
     },
