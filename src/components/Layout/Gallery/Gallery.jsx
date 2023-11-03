@@ -22,7 +22,7 @@ const Gallery = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis totam numquam distinctio? Corporis labore <br /> animi unde. Sequi quia ullam dolores assumenda praesentium nisi, cumque culpa quis.</p>
                         </div>
 
-                        <div className='grid grid-cols-3 gap-7'>
+                        <div className='grid grid-cols-3 gap-7 py-6'>
                             <img src={gallery1} alt="" />
 
                             <img src={gallery2} alt="" />
