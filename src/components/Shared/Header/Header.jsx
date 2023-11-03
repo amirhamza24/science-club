@@ -37,7 +37,7 @@ const Header = () => {
 
                         <div className='space-x-10 text-xl'>
                             <Link to="/">Home</Link>
-                            <Link to="/">All Event</Link>
+                            <Link to="/event">All Event</Link>
                             <Link to="/">Committee</Link>
                             <Link to="/">Gallery</Link>
                         </div>
